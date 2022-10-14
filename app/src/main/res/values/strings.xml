@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Shared Preference Example</string>
+    <string name="textview_str">TextView</string>
+    <string name="save_data_str">Save Data</string>
+    <string name="view_data_str">View Data</string>
+    <string name="type_text_here_str">Type Text Here</string>
+</resources>
