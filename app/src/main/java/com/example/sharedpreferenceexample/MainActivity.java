@@ -27,8 +27,7 @@ public class MainActivity extends AppCompatActivity {
         showbtn = (Button) findViewById(R.id.viewdata);
         textView = (TextView) findViewById(R.id.showdata);
 
-
-
+        //Save Details Button
         savebtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -41,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //View Details Button
         showbtn.setOnClickListener(new View.OnClickListener() {
             SharedPreferences sp = getSharedPreferences("text", MODE_PRIVATE);
             @Override
